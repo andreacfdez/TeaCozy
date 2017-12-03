@@ -1,0 +1,90 @@
+body {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  position: fixed;
+  height: 90px;
+  width: 100%;
+  border-bottom: 1px solid white;
+  color: white;
+  font-family: verdana;
+
+}
+
+.HeaderLogo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 20px;
+  }
+
+  header nav {
+    padding: 20px 10px 0 10px;
+    margin: 20px 10px 0 10px;
+    display: inline-block;
+  }
+
+nav span a {
+  color: white;
+}
+
+
+.MainContainer {
+  padding-top: 100px;
+}
+
+.OurMission {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  height: 600px;
+  width: 70%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.content {
+  color: white;
+  background-color: black;
+  width: 100%;
+
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .TeaMonth {
+    height: 800px;
+    width: 900px;
+  }
+
+  .PicBlock {
+    display: block;
+  }
+
+  .PicBlock span {
+    display: block;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .pics img {
+    height: 160px;
+    width: 220px;
+    padding: 10px
+  }
+
+  .item {
+      padding: 5px;
+  }
+
+div {
+    display: block;
+  }
