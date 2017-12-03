@@ -3,6 +3,8 @@ body {
   color: white;
   font-size: 20px;
   text-align: center;
+  font-family: verdana;
+
 }
 
 header {
@@ -12,7 +14,8 @@ header {
   width: 100%;
   border-bottom: 1px solid white;
   color: white;
-  font-family: verdana;
+  z-index: 1;
+  background-color: black;
 
 }
 
@@ -38,13 +41,17 @@ nav span a {
   padding-top: 100px;
 }
 
-.OurMission {
+.OurMissionImg {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+}
+
+.Img {
   height: 600px;
   width: 70%;
   align-items: center;
   justify-content: center;
   display: flex;
+  margin: 0px auto 0px auto;
 }
 
 .content {
@@ -61,18 +68,23 @@ nav span a {
   }
 
   .TeaMonth {
-    height: 800px;
+    margin: 0px auto 0px auto;
+    height: 650px;
     width: 900px;
   }
 
   .PicBlock {
     display: block;
+    background-color: black;
+    margin-left: 10px;
+    padding: 10px;
   }
 
   .PicBlock span {
     display: block;
-    font-weight: bold;
     text-align: center;
+    padding: 20px;
+
   }
 
   .pics img {
@@ -88,3 +100,28 @@ nav span a {
 div {
     display: block;
   }
+
+  .Locations {
+    color: white;
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  }
+
+
+  .LocaLoc {
+    display: block;
+  }
+
+footer {
+  height: 100px;
+  width: 100%;
+  display: block;
+  text-align: left;
+  font-weight: bold;
+}
+
+.FooterInfo {
+  align-items: center;
+  margin: 40px  auto auto auto;
+  flex-direction: column;
+
+}
